@@ -1,0 +1,383 @@
+.header-section {
+    max-width: 1250px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-container {
+    /* border: 2px solid slateblue; */
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Mulish;
+
+}
+
+.special {
+    color: #FF5400;
+}
+
+.item-container {
+    /* border: 2px solid blue; */
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Mulish;
+}
+
+.item-container a {
+    text-decoration: none;
+}
+
+
+
+/* banner-section1 starts  */
+.banner-section {
+    max-width: 1250px;
+    margin: 0 auto;
+    background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png"), url("../images/Rectangle\ 2.png");
+    border-radius: 16px;
+    width: 1170px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: darken;
+}
+
+.banner-section>h1 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25%;
+    padding-top: 65px;
+}
+
+.banner-section>p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.search-bar {
+    display: flex;
+    width: 50%;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-left: 280px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+/* banner-section1 ends  */
+
+
+/* banner-section2 starts  */
+.Explore-item {
+    max-width: 1250px;
+    margin: 0 auto;
+    width: 1170px;
+    height: 550px;
+    display: flex;
+}
+
+.hill-container {
+    width: 550px;
+    height: 540px;
+    padding-top: 60px;
+
+}
+
+.Explore-item>h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.Explore-item>p {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.Explore-item>li {
+    width: 525px;
+    color: rgba(19, 19, 24, 0.70);
+    padding: auto;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.button-primary>button {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-color: white;
+}
+
+.hill-image>img {
+    margin-top: 100px;
+    padding-left: 40px;
+    padding-right: 5px;
+    width: 550px;
+    height: 540px;
+    border-radius: 16px;
+    background: url(<path-to-image>);
+    height: 400px;
+    padding-bottom: 30px;
+}
+
+/* banner-section2 ends  */
+/* Destination section starts */
+.Destination-item {
+    max-width: 1250px;
+    height: 550px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Destination-container>h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.Destination-container>p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.img-1st>img {
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.img-2nd>img {
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.img-3rd>img {
+    justify-content: space-between;
+    padding: 5px;
+}
+
+/* Destination section ends */
+
+/* choosing-section starts */
+.choose-container {
+    max-width: 1250px;
+    margin-top: 550px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.choosen-item>h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+}
+
+.choosen-item>p {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    padding-left: 25%;
+}
+
+.tags {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 0px;
+    gap: 0px;
+}
+
+.hotels {
+    width: 500px;
+    height: 284px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    border-radius: 16px;
+    margin: 50px 120px;
+    padding-left: 5px;
+}
+
+.hotels>img {
+    width: 64px;
+    height: 64px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 60%;
+}
+
+.hotels>h3 {
+    color: #131318;
+    font-family: Mulish;
+    padding-left: 20px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.maps {
+    width: 500px;
+    height: 284px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    border-radius: 16px;
+    margin: 50px -105px;
+    padding-left: 5px;
+}
+
+.maps>h3 {
+    color: #131318;
+    font-family: Mulish;
+    padding-left: 20px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.prices {
+    width: 500px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: -40px 50%;
+    padding-left: 5px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.prices>h3 {
+    color: #131318;
+    font-family: Mulish;
+    padding-left: 20px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* * choosing-section ends */
+/* Deals sections starts */
+.Discounts {
+    max-width: 1440px;
+    /* width: 50%; */
+    margin-top: 150px;
+}
+
+.Discounts-head>h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.Discounts-head>p {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto;
+}
+
+.beach {
+    background-image: url(../Images/Group\ 39.png);
+    justify-content: center;
+    margin: 40px auto;
+    width: 1100px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    /* background: rgba(255, 255, 255, 0.80); */
+    /* backdrop-filter: blur(2.5px); */
+}
+
+/* Deals sections ends */
+
+
+.footer-container{
+    width: 1400px;
+    height: 502px;
+    margin: 0 auto;
+    padding-top: -5px;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    align-content: center;
+    align-items: center;
+    background: rgba(19, 19, 24, 0.05);
+}
